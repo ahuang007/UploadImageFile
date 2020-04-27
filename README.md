@@ -33,5 +33,34 @@
   http://localhost:3000
   ```
 
+* 接口定义
+
+## 上传图片
+
+地址：http://localhost:3000/
+
+请求方式：POST /upload
+
+#### 传入参数：
+
+> multipart/form-data:[
+>
+> ]
+>
+> #### 返回数据
+>
+> {
+>
+> ​	"result": 0,
+>
+> ​	"url":"http://localhost:3000/469b6eca3cff160d69dc98044f491637.png", 
+>
+> }
+>
+> * 注：以上结果为示例
+
+## 下载图片
+
+直接输入 `上传图片` 的返回结果即可
   
 
